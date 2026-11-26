@@ -11,7 +11,8 @@ app.get('/categories', (req, res) => {
 res.json([
 { id: 1, name: 'Fiction' },
 { id: 2, name: 'Non-Fiction' },
-{ id: 3, name: 'Biography' }
+{ id: 3, name: 'Biography' },
+{ id: 4, name: 'Science' }
 ]);
 });
 
